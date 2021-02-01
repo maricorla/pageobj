@@ -1,0 +1,31 @@
+{
+  "name": "pageobj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maricorla/pageobj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maricorla/pageobj/issues"
+  },
+  "homepage": "https://github.com/maricorla/pageobj#readme",
+  "dependencies": {
+    "@wdio/cli": "^6.12.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^88.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
